@@ -1,0 +1,31 @@
+﻿day:
+	breakfast: 
+		- food: 
+			name: cafe solo
+			weight: 150
+		- food:
+			name: pan integral
+			weight: 90
+		- food: 
+			name: tomate grande
+			weight: 75
+		- food: 
+			name: aceite de oliva virgen extra
+			weight: 2
+		- food: 
+			name: melocotón grande
+			weight: 180
+	midMorning:
+		- food: 
+			name: cafe solo
+			weight: 150
+		- food: 
+			name: 2 tortitas de arroz
+	lunch:
+		- food: 
+			name: primer plato
+			- food: 
+				name: Brócoli hervido
+				weight:
+    afternoonSnack
+	dinner

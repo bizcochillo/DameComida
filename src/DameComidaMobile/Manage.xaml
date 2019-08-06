@@ -4,9 +4,9 @@
              x:Class="DameComidaMobile.Manage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="CARGAR PLAN" />
+            <Button Text="SELECCIONAR PLAN" />
+            <Button Text="LISTA DE LA COMPRA" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

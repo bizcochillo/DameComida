@@ -4,14 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using DameComidaMobile.Model;
 
 namespace DameComidaMobile
 {
     public partial class MainPage : ContentPage
     {
+       
+        public 
+
         public MainPage()
         {
             InitializeComponent();
+
+            // Load current week. 
         }
 
         private async void OnTrackMeal_Clicked(object sender, EventArgs e)
