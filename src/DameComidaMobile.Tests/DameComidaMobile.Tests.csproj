@@ -16,4 +16,10 @@
     <ProjectReference Include="..\DameComidaMobile\DameComidaMobile.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="planInput.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

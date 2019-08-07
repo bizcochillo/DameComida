@@ -10,9 +10,6 @@ namespace DameComidaMobile
 {
     public partial class MainPage : ContentPage
     {
-       
-        public 
-
         public MainPage()
         {
             InitializeComponent();

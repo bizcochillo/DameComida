@@ -1,0 +1,55 @@
+﻿#desayuno
+café solo; 150
+pan integral; 60
+tomate grande; 120
+aceite de oliva virgen extra; 2
+melocotón grande; 150-180
+#mediamañana
+manzana; 150-170
+yogur desnatado; 125
+zumo de naranja; 200
+#almuerzo
+- judias verdes con jamón
+;judias verdes hervidas; 150
+;jamon; 20
+- filete de ternera con guarnición
+;ternera;150
+;escarola;35
+;pimientos;30
+;aceite de oliva virgen extra; 2
+;pan integral;20
+sandia; 150-180
+#merienda
+cafe;150
+2 tortitas de arroz
+#cena
+crema de zanahorias;150
+tortilla de espárragos trigueros; 200
+aceite de oliva virgen extra;2
+pan integral;20
+platano;150-180
+--
+#desayuno
+#mediamañana
+#almuerzo
+#merienda
+#cena
+--
+#desayuno
+#mediamañana
+#almuerzo
+#merienda
+#cena
+--
+#desayuno
+#mediamañana
+#almuerzo
+#merienda
+#cena
+--
+#desayuno
+#mediamañana
+#almuerzo
+#merienda
+#cena
+--
