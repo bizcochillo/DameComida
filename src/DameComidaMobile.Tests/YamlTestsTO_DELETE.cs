@@ -9,9 +9,9 @@ namespace DameComidaMobile.Tests
 {
     public class YamlTestsTO_DELETE
     {
-        private void ReadFile(string inputFile)
+        private List<Dictionary<string, List<string>>> ReadFile(string inputFile)
         {
-            var listDays = new List<Dictionary<DietScheduledMealType, List<string>>>();
+            var listDays = new List<Dictionary<string, List<string>>>();
 
             using (var sr = new StreamReader(inputFile))
             {
@@ -27,28 +27,30 @@ namespace DameComidaMobile.Tests
                         // New Meal
                         bulkMeal = new List<string>();
                         day.Add(line.Substring(1), bulkMeal);
-                        
-
                         continue;
                     }
-
                     if (line.StartsWith("--"))
                     {
                         // New Day
+                        listDays.Add(day);
+                        day = new Dictionary<string, List<string>>();
+                        continue;
                     }
-
+                    bulkMeal.Add(line);
                 }
             }
+
+            return listDays;
         }
 
         [Fact]
         public void SaveYamlTests()
         {
-            ReadFile("planInput.txt");
+            var rawInput = ReadFile("planInput.txt");
             var outputFile = "plan.yaml";
             var day = new DietDay();
             var meal = new DietScheduledMeal();
-            meal.FoodList.Add(food);
+            //meal.FoodList.Add(food);
             day.Meals.Add(DietScheduledMealType.Breakfast, meal);
             day.Meals.Add(DietScheduledMealType.MidMorning, meal);
             day.Meals.Add(DietScheduledMealType.Lunch, meal);
