@@ -12,6 +12,7 @@ namespace DameComidaMobile.Tests
         private void ReadFile(string inputFile)
         {
             var listDays = new List<Dictionary<DietScheduledMealType, List<string>>>();
+
             using (var sr = new StreamReader(inputFile))
             {
                 var day = new Dictionary<string, List<string>>();
@@ -25,7 +26,7 @@ namespace DameComidaMobile.Tests
                     {
                         // New Meal
                         bulkMeal = new List<string>();
-                        day.Add(line.Substring(1), new List<string>());
+                        day.Add(line.Substring(1), bulkMeal);
                         
 
                         continue;
