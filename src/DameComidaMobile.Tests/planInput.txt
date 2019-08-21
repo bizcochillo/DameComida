@@ -30,7 +30,13 @@ pan integral;20
 platano;150-180
 --
 #desayuno
+cereales de desayuno a base de trigo, maíz, y avena; 35
+leche desnatada; 200
+cereza; 130
+cafe negro; 150
 #mediamañana
+pan integral; 60
+ques
 #almuerzo
 #merienda
 #cena

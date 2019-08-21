@@ -3,18 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DameComidaMobile.Android", "src\DameComidaMobile.Android\DameComidaMobile.Android.csproj", "{A110DDEF-E0B4-4775-A7E5-B14512C9FADD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DameComidaMobile.Android", "DameComidaMobile.Android\DameComidaMobile.Android.csproj", "{A110DDEF-E0B4-4775-A7E5-B14512C9FADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DameComidaMobile.iOS", "src\DameComidaMobile.iOS\DameComidaMobile.iOS.csproj", "{CC6E3EC9-945F-4631-98C3-2950E9FBA4AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DameComidaMobile.iOS", "DameComidaMobile.iOS\DameComidaMobile.iOS.csproj", "{CC6E3EC9-945F-4631-98C3-2950E9FBA4AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DameComidaMobile", "src\DameComidaMobile\DameComidaMobile.csproj", "{A6D64DCC-FCEE-458A-B79C-23F15F46CF70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DameComidaMobile", "DameComidaMobile\DameComidaMobile.csproj", "{A6D64DCC-FCEE-458A-B79C-23F15F46CF70}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{44577D79-C4B9-42F3-A322-2E5CD6DFDF57}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DameComidaMobile.Tests", "src\DameComidaMobile.Tests\DameComidaMobile.Tests.csproj", "{EA560D9D-BF55-4948-9701-28710A682DBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DameComidaMobile.Tests", "DameComidaMobile.Tests\DameComidaMobile.Tests.csproj", "{EA560D9D-BF55-4948-9701-28710A682DBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
